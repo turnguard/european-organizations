@@ -320,9 +320,12 @@
         a time:Interval;
         time:hasBeginning [
             a time:Instant;
-            time:inXSDDateTime "1980-12-31T22:00:00Z"^^xsd:dateTime
+            time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
+            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
         ]
     ] .
+
 
 <http://organization.turnguard.com/europe/eu/hu> a org:Membership;
     org:member <http://organization.turnguard.com/europe/hu>;
@@ -438,9 +441,12 @@
         a time:Interval;
         time:hasBeginning [
             a time:Instant;
-            time:inXSDDateTime "1986-01-01T00:00:00Z"^^xsd:dateTime
+            time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
+            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
         ]
     ] .
+
 
 <http://organization.turnguard.com/europe/eu/ro> a org:Membership;
     org:member <http://organization.turnguard.com/europe/ro>;
@@ -482,7 +488,9 @@
         a time:Interval;
         time:hasBeginning [
             a time:Instant;
-            time:inXSDDateTime "1985-12-31T23:00:00Z"^^xsd:dateTime
+            time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
+            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
         ]
     ] .
 
