@@ -74,6 +74,6 @@ To find yourself in the glorious list of contributors feel free to issue pull re
 &nbsp;&nbsp;[9] https://en.wikipedia.org/wiki/Coordinated_Universal_Time<br/>
 [10] http://www.timeanddate.com/worldclock/converter.html<br/>
 [11] https://www.w3.org/TR/owl-time/<br/>
-[12] http://dublincore.org/documents/dcmi-terms/#terms-title
-[13] https://www.w3.org/TR/rdf-schema/#ch_comment
-[14] https://www.w3.org/TR/rdf-schema/#ch_seealso
+[12] http://dublincore.org/documents/dcmi-terms/#terms-title<br/>
+[13] https://www.w3.org/TR/rdf-schema/#ch_comment<br/>
+[14] https://www.w3.org/TR/rdf-schema/#ch_seealso<br/>
