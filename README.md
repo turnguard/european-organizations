@@ -32,7 +32,20 @@
         <http://organization.turnguard.com/europe/eu> ?p ?o
     }
   ```
-    2. Members of the European Union (+since when) (on sparql.turnguard.com/sparql : http://goo.gl/zTBMgQ)<br/>
+    2. All available formal organizations (on sparql.turnguard.com/sparql: http://goo.gl/M3OFaC)<br/>
+    ```
+    PREFIX org:<http://www.w3.org/ns/org#>
+    PREFIX dcterms: <http://purl.org/dc/terms/>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    SELECT * 
+    FROM <http://organization.turnguard.com/europe>
+    WHERE {
+      ?formalOrganization a org:FormalOrganization;
+                          dcterms:title ?name .
+      OPTIONAL { ?formalOrganization rdfs:seeAlso ?seeAlso }
+    } ORDER BY ?name
+    ```
+    3. Members of the European Union (+since when) (on sparql.turnguard.com/sparql : http://goo.gl/zTBMgQ)<br/>
     ```
     PREFIX org:<http://www.w3.org/ns/org#>
     PREFIX time:<http://www.w3.org/2006/time#>
@@ -47,6 +60,8 @@
                  org:memberDuring/time:hasBeginning/time:inXSDDateTime ?memberSince
     } ORDER BY DESC(?memberSince)
   ```
+3. Contributions<br/>
+To find yourself in the glorious list of contributors feel free to issue pull requests.
 
 &nbsp;&nbsp;[1] https://www.w3.org/TR/rdf11-primer/<br/>
 &nbsp;&nbsp;[2] https://www.w3.org/TR/vocab-org<br/>
