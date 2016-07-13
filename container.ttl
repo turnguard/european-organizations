@@ -151,32 +151,32 @@
 
 # ORGANIZATIONS
 
-<http://organization.turnguard.com/europe/eu> a org:Organization;
+<http://organization.turnguard.com/europe/eu> a org:FormalOrganization;
     rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Union>;
     rdfs:comment "The European Union as defined and understood in this dataset was established by coming into force of Maastricht Treaty on first of Nomvember 1993. This date is also given below for the founding countries as the beginning date of their membership in the European Union."@en;
     dcterms:title "European Union"@en .
 
-<http://organization.turnguard.com/europe/ea> a org:Organization;
+<http://organization.turnguard.com/europe/ea> a org:FormalOrganization;
     rdfs:seeAlso <https://en.wikipedia.org/wiki/Eurozone>;
     dcterms:title "Euro Area"@en .
 
-<http://organization.turnguard.com/europe/sa> a org:Organization;
+<http://organization.turnguard.com/europe/sa> a org:FormalOrganization;
     rdfs:seeAlso <https://en.wikipedia.org/wiki/Schengen_Area>;
     dcterms:title "Schengen Area"@en .
 
-<http://organization.turnguard.com/europe/eucu> a org:Organization;
+<http://organization.turnguard.com/europe/eucu> a org:FormalOrganization;
     rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Union_Customs_Union>;
     dcterms:title "European Union Customs Union"@en .
 
-<http://organization.turnguard.com/europe/eea> a org:Organization;
+<http://organization.turnguard.com/europe/eea> a org:FormalOrganization;
     rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Economic_Area>;
     dcterms:title "European Economic Area"@en .
 
-<http://organization.turnguard.com/europe/coe> a org:Organization;
+<http://organization.turnguard.com/europe/coe> a org:FormalOrganization;
     rdfs:seeAlso <https://en.wikipedia.org/wiki/Council_of_Europe>;
     dcterms:title "The Council of Europe"@en .
 
-<http://organization.turnguard.com/europe/efta> a org:Organization;
+<http://organization.turnguard.com/europe/efta> a org:FormalOrganization;
     rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Free_Trade_Association>;
     dcterms:title "European Free Trade Association"@en .
 
