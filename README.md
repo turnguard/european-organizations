@@ -1,6 +1,6 @@
 1. European Organization 
 
-  This project aims at creating a rdf [1] dataset for major european organizations using W3C's Organization Ontology [2].
+  This project aims at creating an RDF[1] dataset for major european organizations using W3C's Organization Ontology [2].
   It can be considered preparatory work for a project to triplify the CETA Treaty [3].
   
 2. Notes on the dataset
