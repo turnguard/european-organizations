@@ -1,0 +1,835 @@
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix sioc: <http://rdfs.org/sioc/ns#> .
+@prefix void:<http://rdfs.org/ns/void#> .
+@prefix org:<http://www.w3.org/ns/org#> .
+@prefix vcard:<http://www.w3.org/2006/vcard/ns#> .
+@prefix geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix foaf:<http://xmlns.com/foaf/0.1/> .
+@prefix time:<http://www.w3.org/2006/time#> .
+
+<http://organization.turnguard.com/europe> a sioc:Container;
+	dcterms:title "European Union"@en;
+	dcterms:publisher <http://www.turnguard.com/turnguard>;
+	dcterms:license <http://creativecommons.org/licenses/by-sa/3.0/>;
+	dcterms:language "en";
+	dcterms:creator <http://www.turnguard.com/turnguard>;
+	sioc:has_parent <http://organization.turnguard.com> .
+
+# COUNTRIES 
+
+<http://organization.turnguard.com/europe/at> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/austria/index_en.htm>;
+	dcterms:title "Republic of Austria"@en .
+   
+<http://organization.turnguard.com/europe/be> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/belgium/index_en.htm>;
+    dcterms:title "Kingdom of Belgium"@en .
+
+<http://organization.turnguard.com/europe/fi> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/finland/index_en.htm>;
+    dcterms:title "Republic of Finland"@en .
+
+<http://organization.turnguard.com/europe/fr> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/france/index_en.htm>;
+    dcterms:title "French Republic"@en .
+
+<http://organization.turnguard.com/europe/de> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/germany/index_en.htm>;
+    dcterms:title "Federal Republic of Germany"@en .
+
+<http://organization.turnguard.com/europe/gr> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/greece/index_en.htm>;
+    dcterms:title "Republic of Greece"@en .
+
+<http://organization.turnguard.com/europe/it> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/italy/index_en.htm>;
+    dcterms:title "Italian Republic"@en .
+
+<http://organization.turnguard.com/europe/lv> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/latvia/index_en.htm>;
+    dcterms:title "Republic of Latvia"@en .
+
+<http://organization.turnguard.com/europe/lt> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/lithuania/index_en.htm>;
+    dcterms:title "Republic of Lithuania"@en .
+
+<http://organization.turnguard.com/europe/lu> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/luxembourg/index_en.htm>;
+    dcterms:title "Grand Duchy of Luxembourg"@en .
+
+<http://organization.turnguard.com/europe/mt> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/malta/index_en.htm>;
+    dcterms:title "Republic of Malta"@en .
+
+<http://organization.turnguard.com/europe/nl> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/netherlands/index_en.htm>;
+    dcterms:title "Kingdom of the Netherlands"@en .
+
+<http://organization.turnguard.com/europe/pt> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/portugal/index_en.htm>;
+    dcterms:title "Portuguese Republic"@en .
+
+<http://organization.turnguard.com/europe/sk> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/slovakia/index_en.htm>;
+    dcterms:title "Slovak Republic"@en .
+
+<http://organization.turnguard.com/europe/si> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/slovenia/index_en.htm>;
+    dcterms:title "Republic of Slovenia"@en .
+
+<http://organization.turnguard.com/europe/es> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/spain/index_en.htm>;
+    dcterms:title "Kingdom of Spain"@en .
+
+<http://organization.turnguard.com/europe/pt> a org:Organization;
+    dcterms:title "Portuguese Republic"@en .
+
+<http://organization.turnguard.com/europe/cy> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/cyprus/index_en.htm>;
+    dcterms:title "Republic of Cyprus"@en .
+
+<http://organization.turnguard.com/europe/ie> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/ireland/index_en.htm>;
+    dcterms:title "Republic of Ireland"@en .
+
+<http://organization.turnguard.com/europe/cz> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/czechrepublic/index_en.htm>;
+    dcterms:title "Czech Republic"@en .
+
+<http://organization.turnguard.com/europe/dk> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/denmark/index_en.htm>;
+    dcterms:title "Kingdom of Denmark"@en .
+
+<http://organization.turnguard.com/europe/hu> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/hungary/index_en.htm>;
+    dcterms:title "Republic of Hungary"@en .
+
+<http://organization.turnguard.com/europe/se> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/sweden/index_en.htm>;
+    dcterms:title "Kingdom of Sweden"@en .
+
+<http://organization.turnguard.com/europe/is> a org:Organization;
+    dcterms:title "Republic of Iceland"@en .
+
+<http://organization.turnguard.com/europe/ch> a org:Organization;
+    dcterms:title "Swiss Confederation"@en .
+
+<http://organization.turnguard.com/europe/li> a org:Organization;
+    dcterms:title "Principality of Liechtenstein"@en .
+
+<http://organization.turnguard.com/europe/no> a org:Organization;
+    dcterms:title "Kingdom of Norway"@en .
+
+<http://organization.turnguard.com/europe/bg> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/bulgaria/index_en.htm>;
+    dcterms:title "Republic of Bulgaria"@en .
+
+<http://organization.turnguard.com/europe/ro> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/romania/index_en.htm>;
+    dcterms:title "Republic of Romania"@en .
+
+<http://organization.turnguard.com/europe/ee> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/estonia/index_en.htm>;
+    dcterms:title "Republic of Estonia"@en .
+
+<http://organization.turnguard.com/europe/uk> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/unitedkingdom/index_en.htm>;
+    dcterms:title "United Kingdom of Great Britain and Norther Ireland"@en .
+
+<http://organization.turnguard.com/europe/hr> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/croatia/index_en.htm>;
+    dcterms:title "Republic of Croatia"@en .
+
+<http://organization.turnguard.com/europe/pl> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/poland/index_en.htm>;
+    dcterms:title "Republic of Poland"@en .
+
+# ORGANIZATIONS
+
+<http://organization.turnguard.com/europe/eu> a org:Organization;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Union>;
+    rdfs:comment "The European Union as defined and understood in this dataset was established by coming into force of Maastricht Treaty on first of Nomvember 1993. This date is also given below for the founding countries as the beginning date of their membership in the European Union."@en;
+    dcterms:title "European Union"@en .
+
+<http://organization.turnguard.com/europe/ea> a org:Organization;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Eurozone>;
+    dcterms:title "Euro Area"@en .
+
+<http://organization.turnguard.com/europe/sa> a org:Organization;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Schengen_Area>;
+    dcterms:title "Schengen Area"@en .
+
+<http://organization.turnguard.com/europe/eucu> a org:Organization;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Union_Customs_Union>;
+    dcterms:title "European Union Customs Union"@en .
+
+<http://organization.turnguard.com/europe/eea> a org:Organization;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Economic_Area>;
+    dcterms:title "European Economic Area"@en .
+
+<http://organization.turnguard.com/europe/coe> a org:Organization;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/Council_of_Europe>;
+    dcterms:title "The Council of Europe"@en .
+
+<http://organization.turnguard.com/europe/efta> a org:Organization;
+    rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Free_Trade_Association>;
+    dcterms:title "European Free Trade Association"@en .
+
+# MEMBERSHIPS
+
+# EU (European Union)
+
+<http://organization.turnguard.com/europe/eu/at> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/at>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1994-12-31T23:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/be> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/be>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [            
+            a time:Instant;
+            time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
+            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/bg> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/bg>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "2006-12-31T22:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/hr> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/hr>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "2013-06-30T22:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/cy> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/cy>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "2004-04-30T21:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/cz> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/cz>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "2004-04-30T22:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/dk> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/dk>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
+            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/ee> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/ee>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "2004-04-30T21:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/fi> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/fi>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1994-12-31T22:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/fr> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/fr>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
+            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/de> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/de>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
+            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/gr> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/gr>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1980-12-31T22:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/hu> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/hu>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "2004-04-30T22:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/ie> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/ie>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
+            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/it> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/it>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
+            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/lv> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/lv>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "2004-04-30T21:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/lt> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/lt>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "2004-04-30T21:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/lu> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/lu>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
+            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/mt> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/mt>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "2004-04-30T21:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/nl> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/nl>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
+            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/pl> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/pl>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "2004-04-30T21:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/pt> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/pt>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1986-01-01T00:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/ro> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/ro>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "2006-12-31T22:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/sk> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/sk>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "2004-04-30T22:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/si> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/si>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "2004-04-30T22:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/es> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/es>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1985-12-31T23:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/se> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/se>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1994-12-31T23:00:00Z"^^xsd:dateTime
+        ]
+    ] .
+
+<http://organization.turnguard.com/europe/eu/uk> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/uk>;
+    org:organization <http://organization.turnguard.com/europe/eu>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
+            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+        ]
+    ] .
+
+# EFTA (European Free Trade Association)
+
+<http://organization.turnguard.com/europe/efta/ch> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/ch>;
+    org:organization <http://organization.turnguard.com/europe/efta> .
+
+<http://organization.turnguard.com/europe/efta/li> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/li>;    
+    org:organization <http://organization.turnguard.com/europe/efta> .
+
+<http://organization.turnguard.com/europe/efta/no> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/no>;    
+    org:organization <http://organization.turnguard.com/europe/efta> .
+
+<http://organization.turnguard.com/europe/efta/is> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/is>;    
+    org:organization <http://organization.turnguard.com/europe/efta> .
+
+# EEA (European Economic Area)
+
+<http://organization.turnguard.com/europe/eea/bg> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/bg>;    
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/ro> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/ro>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/cy> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/cy>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/cz> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/cz>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/ee> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/ee>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/hu> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/hu>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/lt> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/lt>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/mt> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/mt>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/pl> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/pl>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/sk> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/sk>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/si> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/si>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/lv> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/lv>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/li> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/li>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/at> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/at>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/be> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/be>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/dk> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/dk>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/fi> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/fi>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/fr> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/fr>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/de> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/de>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/gr> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/gr>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/is> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/is>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/ie> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/ie>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/it> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/it>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/lu> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/lu>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/nl> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/nl>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/no> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/no>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/pt> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/pt>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/es> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/es>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/se> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/se>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+<http://organization.turnguard.com/europe/eea/uk> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/uk>;
+    org:organization <http://organization.turnguard.com/europe/eea> .
+
+# SA (Schengen Area)
+
+<http://organization.turnguard.com/europe/sa/at> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/at>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/be> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/be>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/cz> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/cz>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/dk> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/dk>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/ee> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/ee>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/fi> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/fi>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/fr> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/fr>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/de> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/de>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/gr> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/gr>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/hu> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/hu>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/is> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/is>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/it> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/it>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/lv> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/lv>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/li> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/li>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/lt> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/lt>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/lu> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/lu>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/mt> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/mt>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/nl> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/nl>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/no> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/no>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/pl> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/pl>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/pt> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/pt>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/sk> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/sk>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/si> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/si>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/es> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/es>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/se> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/se>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+<http://organization.turnguard.com/europe/sa/ch> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/ch>;
+    org:organization <http://organization.turnguard.com/europe/sa> .
+
+# EA (Euro Area, Euro Zone)
+
+<http://organization.turnguard.com/europe/ea/at> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/at>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/be> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/be>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/cy> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/cy>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/ee> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/ee>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/fi> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/fi>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/fr> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/fr>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/de> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/de>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/gr> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/gr>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/ie> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/ie>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/it> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/it>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/lv> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/lv>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/lt> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/lt>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/lu> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/lu>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/mt> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/mt>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/nl> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/nl>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/pt> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/pt>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/sk> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/sk>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/si> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/si>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
+
+<http://organization.turnguard.com/europe/ea/es> a org:Membership;
+    org:member <http://organization.turnguard.com/europe/es>;
+    org:organization <http://organization.turnguard.com/europe/ea> .
