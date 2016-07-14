@@ -153,7 +153,9 @@
 
 <http://organization.turnguard.com/europe/eu> a org:FormalOrganization;
     rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Union>;
-    rdfs:comment "The European Union as defined and understood in this dataset was established by coming into force of Maastricht Treaty on first of Nomvember 1993. This date is also given below for the founding countries as the beginning date of their membership in the European Union."@en;
+    rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>;
+    rdfs:comment "The European Union as defined and understood in this dataset was established by coming into force of Maastricht Treaty on first of November 1993. This date is also given below for the founding countries as the beginning date of their membership in the European Union."@en;
+    dcterms:source <https://www.britannica.com/event/Maastricht-Treaty>;    
     dcterms:title "European Union"@en .
 
 <http://organization.turnguard.com/europe/ea> a org:FormalOrganization;
@@ -187,6 +189,7 @@
 <http://organization.turnguard.com/europe/eu/at> a org:Membership;
     org:member <http://organization.turnguard.com/europe/at>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -198,19 +201,20 @@
 <http://organization.turnguard.com/europe/eu/be> a org:Membership;
     org:member <http://organization.turnguard.com/europe/be>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://www.britannica.com/event/Maastricht-Treaty>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [            
             a time:Instant;
             time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
-            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
-            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en
         ]
     ] .
 
 <http://organization.turnguard.com/europe/eu/bg> a org:Membership;
     org:member <http://organization.turnguard.com/europe/bg>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -222,6 +226,7 @@
 <http://organization.turnguard.com/europe/eu/hr> a org:Membership;
     org:member <http://organization.turnguard.com/europe/hr>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -233,6 +238,7 @@
 <http://organization.turnguard.com/europe/eu/cy> a org:Membership;
     org:member <http://organization.turnguard.com/europe/cy>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -244,6 +250,7 @@
 <http://organization.turnguard.com/europe/eu/cz> a org:Membership;
     org:member <http://organization.turnguard.com/europe/cz>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -255,19 +262,20 @@
 <http://organization.turnguard.com/europe/eu/dk> a org:Membership;
     org:member <http://organization.turnguard.com/europe/dk>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://www.britannica.com/event/Maastricht-Treaty>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
             a time:Instant;
             time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
-            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
-            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en
         ]
     ] .
 
 <http://organization.turnguard.com/europe/eu/ee> a org:Membership;
     org:member <http://organization.turnguard.com/europe/ee>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -279,6 +287,7 @@
 <http://organization.turnguard.com/europe/eu/fi> a org:Membership;
     org:member <http://organization.turnguard.com/europe/fi>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -290,39 +299,39 @@
 <http://organization.turnguard.com/europe/eu/fr> a org:Membership;
     org:member <http://organization.turnguard.com/europe/fr>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://www.britannica.com/event/Maastricht-Treaty>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
             a time:Instant;
             time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
-            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
-            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en
         ]
     ] .
 
 <http://organization.turnguard.com/europe/eu/de> a org:Membership;
     org:member <http://organization.turnguard.com/europe/de>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://www.britannica.com/event/Maastricht-Treaty>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
             a time:Instant;
             time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
-            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
-            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en
         ]
     ] .
 
 <http://organization.turnguard.com/europe/eu/gr> a org:Membership;
     org:member <http://organization.turnguard.com/europe/gr>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://www.britannica.com/event/Maastricht-Treaty>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
             a time:Instant;
             time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
-            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
-            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en
         ]
     ] .
 
@@ -330,6 +339,7 @@
 <http://organization.turnguard.com/europe/eu/hu> a org:Membership;
     org:member <http://organization.turnguard.com/europe/hu>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -341,32 +351,33 @@
 <http://organization.turnguard.com/europe/eu/ie> a org:Membership;
     org:member <http://organization.turnguard.com/europe/ie>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://www.britannica.com/event/Maastricht-Treaty>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
             a time:Instant;
             time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
-            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
-            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en
         ]
     ] .
 
 <http://organization.turnguard.com/europe/eu/it> a org:Membership;
     org:member <http://organization.turnguard.com/europe/it>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://www.britannica.com/event/Maastricht-Treaty>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
             a time:Instant;
             time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
-            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
-            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en
         ]
     ] .
 
 <http://organization.turnguard.com/europe/eu/lv> a org:Membership;
     org:member <http://organization.turnguard.com/europe/lv>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -378,6 +389,7 @@
 <http://organization.turnguard.com/europe/eu/lt> a org:Membership;
     org:member <http://organization.turnguard.com/europe/lt>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -389,19 +401,20 @@
 <http://organization.turnguard.com/europe/eu/lu> a org:Membership;
     org:member <http://organization.turnguard.com/europe/lu>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://www.britannica.com/event/Maastricht-Treaty>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
             a time:Instant;
             time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
-            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
-            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en
         ]
     ] .
 
 <http://organization.turnguard.com/europe/eu/mt> a org:Membership;
     org:member <http://organization.turnguard.com/europe/mt>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -413,19 +426,20 @@
 <http://organization.turnguard.com/europe/eu/nl> a org:Membership;
     org:member <http://organization.turnguard.com/europe/nl>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://www.britannica.com/event/Maastricht-Treaty>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
             a time:Instant;
             time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
-            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
-            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en
         ]
     ] .
 
 <http://organization.turnguard.com/europe/eu/pl> a org:Membership;
     org:member <http://organization.turnguard.com/europe/pl>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -437,13 +451,13 @@
 <http://organization.turnguard.com/europe/eu/pt> a org:Membership;
     org:member <http://organization.turnguard.com/europe/pt>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://www.britannica.com/event/Maastricht-Treaty>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
             a time:Instant;
             time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
-            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
-            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en
         ]
     ] .
 
@@ -451,6 +465,7 @@
 <http://organization.turnguard.com/europe/eu/ro> a org:Membership;
     org:member <http://organization.turnguard.com/europe/ro>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -462,6 +477,7 @@
 <http://organization.turnguard.com/europe/eu/sk> a org:Membership;
     org:member <http://organization.turnguard.com/europe/sk>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -473,6 +489,7 @@
 <http://organization.turnguard.com/europe/eu/si> a org:Membership;
     org:member <http://organization.turnguard.com/europe/si>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -484,19 +501,20 @@
 <http://organization.turnguard.com/europe/eu/es> a org:Membership;
     org:member <http://organization.turnguard.com/europe/es>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://www.britannica.com/event/Maastricht-Treaty>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
             a time:Instant;
             time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
-            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
-            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en
         ]
     ] .
 
 <http://organization.turnguard.com/europe/eu/se> a org:Membership;
     org:member <http://organization.turnguard.com/europe/se>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://en.wikipedia.org/wiki/European_Union#Member_states>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
@@ -508,13 +526,13 @@
 <http://organization.turnguard.com/europe/eu/uk> a org:Membership;
     org:member <http://organization.turnguard.com/europe/uk>;
     org:organization <http://organization.turnguard.com/europe/eu>;
+    dcterms:source <https://www.britannica.com/event/Maastricht-Treaty>;
     org:memberDuring [
         a time:Interval;
         time:hasBeginning [
             a time:Instant;
             time:inXSDDateTime "1993-10-31T23:00:00Z"^^xsd:dateTime;
-            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en;
-            rdfs:seeAlso <http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:xy0026>
+            rdfs:comment "It is assumed that the Maastricht Treaty came into force November 1st, 1993 at exactly 00:00 Central European Time."@en
         ]
     ] .
 
