@@ -11,6 +11,7 @@
 @prefix geo:<http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix foaf:<http://xmlns.com/foaf/0.1/> .
 @prefix time:<http://www.w3.org/2006/time#> .
+@prefix gn:<http://www.geonames.org/ontology#> .
 
 <http://organization.turnguard.com/europe> a sioc:Container;
 	dcterms:title "European Union"@en;
@@ -24,93 +25,117 @@
 
 <http://organization.turnguard.com/europe/at> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/austria/index_en.htm>;
+    gn:countryCode "at";
 	dcterms:title "Republic of Austria"@en .
    
 <http://organization.turnguard.com/europe/be> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/belgium/index_en.htm>;
+    gn:countryCode "be";
     dcterms:title "Kingdom of Belgium"@en .
 
 <http://organization.turnguard.com/europe/fi> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/finland/index_en.htm>;
+    gn:countryCode "fi";
     dcterms:title "Republic of Finland"@en .
 
 <http://organization.turnguard.com/europe/fr> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/france/index_en.htm>;
+    gn:countryCode "fr";
     dcterms:title "French Republic"@en .
 
 <http://organization.turnguard.com/europe/de> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/germany/index_en.htm>;
+    gn:countryCode "de";
     dcterms:title "Federal Republic of Germany"@en .
 
 <http://organization.turnguard.com/europe/gr> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/greece/index_en.htm>;
+    gn:countryCode "gr";
     dcterms:title "Republic of Greece"@en .
 
 <http://organization.turnguard.com/europe/it> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/italy/index_en.htm>;
+    gn:countryCode "it";
     dcterms:title "Italian Republic"@en .
 
 <http://organization.turnguard.com/europe/lv> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/latvia/index_en.htm>;
+    gn:countryCode "lv";
     dcterms:title "Republic of Latvia"@en .
 
 <http://organization.turnguard.com/europe/lt> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/lithuania/index_en.htm>;
+    gn:countryCode "lt";
     dcterms:title "Republic of Lithuania"@en .
 
 <http://organization.turnguard.com/europe/lu> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/luxembourg/index_en.htm>;
+    gn:countryCode "lu";
     dcterms:title "Grand Duchy of Luxembourg"@en .
 
 <http://organization.turnguard.com/europe/mt> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/malta/index_en.htm>;
+    gn:countryCode "mt";
     dcterms:title "Republic of Malta"@en .
 
 <http://organization.turnguard.com/europe/nl> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/netherlands/index_en.htm>;
+    gn:countryCode "nl";
     dcterms:title "Kingdom of the Netherlands"@en .
 
 <http://organization.turnguard.com/europe/pt> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/portugal/index_en.htm>;
+    gn:countryCode "pt";
     dcterms:title "Portuguese Republic"@en .
 
 <http://organization.turnguard.com/europe/sk> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/slovakia/index_en.htm>;
+    gn:countryCode "sk";
     dcterms:title "Slovak Republic"@en .
 
 <http://organization.turnguard.com/europe/si> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/slovenia/index_en.htm>;
+    gn:countryCode "si";
     dcterms:title "Republic of Slovenia"@en .
 
 <http://organization.turnguard.com/europe/es> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/spain/index_en.htm>;
+    gn:countryCode "es";
     dcterms:title "Kingdom of Spain"@en .
 
 <http://organization.turnguard.com/europe/pt> a org:Organization;
+    rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/portugal/index_en.htm>;
+    gn:countryCode "pt";
     dcterms:title "Portuguese Republic"@en .
 
 <http://organization.turnguard.com/europe/cy> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/cyprus/index_en.htm>;
+    gn:countryCode "cy";
     dcterms:title "Republic of Cyprus"@en .
 
 <http://organization.turnguard.com/europe/ie> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/ireland/index_en.htm>;
+    gn:countryCode "ie";
     dcterms:title "Republic of Ireland"@en .
 
 <http://organization.turnguard.com/europe/cz> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/czechrepublic/index_en.htm>;
+    gn:countryCode "cz";
     dcterms:title "Czech Republic"@en .
 
 <http://organization.turnguard.com/europe/dk> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/denmark/index_en.htm>;
+    gn:countryCode "dk";
     dcterms:title "Kingdom of Denmark"@en .
 
 <http://organization.turnguard.com/europe/hu> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/hungary/index_en.htm>;
+    gn:countryCode "hu";
     dcterms:title "Republic of Hungary"@en .
 
 <http://organization.turnguard.com/europe/se> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/sweden/index_en.htm>;
+    gn:countryCode "se";
     dcterms:title "Kingdom of Sweden"@en .
 
 <http://organization.turnguard.com/europe/is> a org:Organization;
