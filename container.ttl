@@ -215,6 +215,8 @@
 
 <http://organization.turnguard.com/europe/efta> a org:FormalOrganization;
     rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Free_Trade_Association>;
+    rdfs:seeAlso <http://www.efta.int/about-efta/history>;
+    rdfs:comment "The EFTA Convention entered into force on 3 May 1960"@en;
     dcterms:title "European Free Trade Association"@en .
 
 # MEMBERSHIPS
@@ -575,19 +577,49 @@
 
 <http://organization.turnguard.com/europe/efta/ch> a org:Membership;
     org:member <http://organization.turnguard.com/europe/ch>;
-    org:organization <http://organization.turnguard.com/europe/efta> .
+    org:organization <http://organization.turnguard.com/europe/efta>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1960-05-02T22:00:00Z"^^xsd:dateTime
+        ]
+    ] .
 
 <http://organization.turnguard.com/europe/efta/li> a org:Membership;
     org:member <http://organization.turnguard.com/europe/li>;    
-    org:organization <http://organization.turnguard.com/europe/efta> .
+    org:organization <http://organization.turnguard.com/europe/efta>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1990-12-31T23:00:00Z"^^xsd:dateTime;
+            rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Free_Trade_Association#History_2> .
+        ]
+    ] .
 
 <http://organization.turnguard.com/europe/efta/no> a org:Membership;
     org:member <http://organization.turnguard.com/europe/no>;    
-    org:organization <http://organization.turnguard.com/europe/efta> .
+    org:organization <http://organization.turnguard.com/europe/efta>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1960-05-02T22:00:00Z"^^xsd:dateTime
+        ]
+    ] .
 
 <http://organization.turnguard.com/europe/efta/is> a org:Membership;
     org:member <http://organization.turnguard.com/europe/is>;    
-    org:organization <http://organization.turnguard.com/europe/efta> .
+    org:organization <http://organization.turnguard.com/europe/efta>;
+    org:memberDuring [
+        a time:Interval;
+        time:hasBeginning [
+            a time:Instant;
+            time:inXSDDateTime "1970-01-01T00:00:00Z"^^xsd:dateTime;
+            rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Free_Trade_Association#History_2> .
+        ]
+    ] .
 
 # EEA (European Economic Area)
 
