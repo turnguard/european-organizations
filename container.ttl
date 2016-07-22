@@ -594,7 +594,7 @@
         time:hasBeginning [
             a time:Instant;
             time:inXSDDateTime "1990-12-31T23:00:00Z"^^xsd:dateTime;
-            rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Free_Trade_Association#History_2> .
+            rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Free_Trade_Association#History_2> 
         ]
     ] .
 
@@ -617,7 +617,7 @@
         time:hasBeginning [
             a time:Instant;
             time:inXSDDateTime "1970-01-01T00:00:00Z"^^xsd:dateTime;
-            rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Free_Trade_Association#History_2> .
+            rdfs:seeAlso <https://en.wikipedia.org/wiki/European_Free_Trade_Association#History_2>
         ]
     ] .
 
