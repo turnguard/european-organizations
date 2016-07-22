@@ -20,7 +20,7 @@
   5. Dates and times<br/>
     Dates and times are given in xsd:dateTime [8] and UTC [9]. DateTimes were converted using this tool [10]. For instance, the Republic of Austria is a European Union member since 01.01.1995, if not explicitly stated, 00:00 is assumed, which is then translated into UTC, giving 1994-12-31T23:00:00Z. All intervals (e.g. the duration of a membership within an organization are expressed using W3C's Time Ontology [11].
   6. Metadata<br/>
-    A dcterms:title [12] relation in english is available for entity description where it makes sense (e.g. not for memberships). The rdfs:comment [13] predicate is used to state clarifications where necessary. The rdfs:seeAlso [14] predicate is used to point to other resources or entity descriptions on the web.
+    A dcterms:title [12] relation in english is available for entity description where it makes sense (e.g. not for memberships). The rdfs:comment [13] predicate is used to state clarifications where necessary. The rdfs:seeAlso [14] predicate is used to point to other resources or entity descriptions on the web. dcterms:source [15] relations are used to indicate the source of the information presented.
   7. The whole dataset is licenced under
      http://creativecommons.org/licenses/by-sa/3.0/
   8. Sample Queries<br/>
@@ -77,3 +77,4 @@ To find yourself in the glorious list of contributors feel free to issue pull re
 [12] http://dublincore.org/documents/dcmi-terms/#terms-title<br/>
 [13] https://www.w3.org/TR/rdf-schema/#ch_comment<br/>
 [14] https://www.w3.org/TR/rdf-schema/#ch_seealso<br/>
+[15] http://dublincore.org/documents/dcmi-terms/#terms-source
