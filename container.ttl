@@ -166,6 +166,7 @@
 
 <http://organization.turnguard.com/europe/ee> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/estonia/index_en.htm>;
+    gn:countryCode "ee";
     dcterms:title "Republic of Estonia"@en .
 
 <http://organization.turnguard.com/europe/uk> a org:Organization;
@@ -175,7 +176,7 @@
 
 <http://organization.turnguard.com/europe/hr> a org:Organization;
     rdfs:seeAlso <http://europa.eu/about-eu/countries/member-countries/croatia/index_en.htm>;
-    gn:countryCode "hr",
+    gn:countryCode "hr";
     dcterms:title "Republic of Croatia"@en .
 
 <http://organization.turnguard.com/europe/pl> a org:Organization;
